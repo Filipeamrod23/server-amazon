@@ -14,7 +14,7 @@ app.use(cors())
 
 app.use(express.json());
 // localhost:3000
-app.get("/usuarios", (req, res) => {
+app.get("/", (req, res) => {
   res.json(users);
 });
 
